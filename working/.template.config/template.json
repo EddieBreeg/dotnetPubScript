@@ -1,8 +1,12 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "name": "Publishing script",
-    "short-name": "pubscript",
-    "indentity": "common.publishing",
+    "shortName": "pubscript",
+    "identity": "common.publishing",
     "author": "Eddie Breeg",
-    "classifications": ["Common", "Script"]
+    "classifications": ["Common", "Script"],
+    "tags": {
+        "type": "item",
+        "language": "Powershell, Bash"
+    }
 }
